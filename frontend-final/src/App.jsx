@@ -2,7 +2,7 @@ import React, { useState, useEffect, createContext, useContext } from "react"
 import { Link, Route, Routes, useLocation, useNavigate } from "react-router-dom"
 import "./App.css"
 
-const API = ""
+const API =  "https://sports-store-backend-1.onrender.com"
 
 // Auth Context
 const AuthContext = createContext(null)
